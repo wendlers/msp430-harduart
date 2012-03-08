@@ -14,10 +14,10 @@ Hardware Setup
 
 The wiring for this example is as follows:
 
-MSP430					To
+MSP430      To
 ----------------------------------------
-RXD  P1.1				TXD serial line
-TXD	 P1.2				RXD serial line
+RXD P1.1    TXD serial line
+TXD P1.2    RXD serial line
 
 NOTE: When using the TI Launchpad, "/dev/ttyACM0" could be used as serial port at 9600 Bauds, but RX/TX must be crossed on the jumper bridge of the Launchpad.
 
