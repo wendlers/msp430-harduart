@@ -39,7 +39,7 @@ void uart_init(void);
  *
  * @param[in]	*isr_ptr	pointer to ISR
  */
-void uart_set_rx_isr_ptr(void (*isr_ptr)(unsigned char c));
+void uart_set_rx_isr_ptr(void (*isr_ptr) (unsigned char c));
 
 /**
  * Read one character from UART blocking.
@@ -63,4 +63,3 @@ void uart_putc(unsigned char c);
 void uart_puts(const char *str);
 
 #endif
-
